@@ -597,8 +597,8 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 	
 #page-loader .loader {
 	margin-top: 40px;
-	font-family: 'Montserrat'; 
-	font-weight: 400;
+	font-family: 'Comfortaa'; 
+	font-weight: 700;
 	text-transform: uppercase; 
 	letter-spacing: 0.1em;
 	color: #0d0d0d;
@@ -624,7 +624,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 	
 .open-nav {
 	display: block;
-	height: 20px;										
+	height: 30px;										
 	float: right;
 	position: relative;
 	z-index: 10;
@@ -867,7 +867,7 @@ footer .footer-inner {
 	}
 	
 footer .copyright { 
-	font-family: 'Josefin Sans';
+	font-family: 'Comfortaa';
 	}
 	
 footer .widget { 
@@ -878,7 +878,7 @@ footer .widget {
 footer #backtotop {
 	text-align: center;
 	font-size: 12px;
-	font-family: "Maven Pro";
+	font-family: "Amiko";
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -1713,6 +1713,8 @@ a.sr-button4:hover { background: #ffffff; }
 .socialmedia-widget li.instagram a:before { content: "\f16d"; }
 .socialmedia-widget li.xing a:before { content: "\f168"; }
 .socialmedia-widget li.dropbox a:before { content: "\f16b"; }
+.socialmedia-widget li.github a:before { content: "\f09b"; }
+
 	
 .socialmedia-widget li.facebook:hover a { color: #446ebf; }
 .socialmedia-widget li.twitter:hover a { color: #39aadc; }
@@ -1730,7 +1732,9 @@ a.sr-button4:hover { background: #ffffff; }
 .socialmedia-widget li.mail:hover a { color: #74624d; }
 .socialmedia-widget li.instagram:hover a { color: #95604b; }
 .socialmedia-widget li.xing:hover a { color: #036567; }
-.socialmedia-widget li.dropbox:hover a { color: #008cd2; }
+.socialmedia-widget li.dropbox:hover a { color: #008cd2; }\
+.socialmedia-widget li.github:hover a { color: #008cd2; }
+
 
 
 
