@@ -119,8 +119,8 @@ body {
 /* Headings
 ---------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat'; 
-	font-weight: 400;
+	font-family: 'Amiko'; 
+	font-weight: 700;
 	text-transform: uppercase; 
 	letter-spacing: 0.08em;
 	color: #0d0d0d;
@@ -147,7 +147,7 @@ h4 + h1, h4 + h2, h4 + h3, h4 + h4, h4 + h5, h4 + h6,
 h5 + h1, h5 + h2, h5 + h3, h5 + h4, h5 + h5, h5 + h6,
 h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6 { margin-top: 10px; }
 
-.alttitle { font-family: 'Josefin Sans'; font-weight: 400; text-transform: none; letter-spacing: 0.04em; }
+.alttitle { font-family: 'Comfortaa'; font-weight: 400; text-transform: none; letter-spacing: 0.04em; }
 .alttitle b, .alttitle strong { font-weight: 700; }
 
 /* headers with link */
@@ -382,7 +382,7 @@ strong i, b i, dt i, strong em, b em, dt em {
 blockquote {
 	margin: 60px;
 	font-size: 24px; line-height: 32px;
-	font-family: 'Josefin Sans', Georgia;
+	font-family: 'Comfortaa', Georgia;
 	font-weight: 300;
 	color: #0d0d0d;
 	font-style: italic;
@@ -624,7 +624,7 @@ body.loading-end .pace { opacity:0!important;filter:alpha(opacity=0)!important;-
 	
 .open-nav {
 	display: block;
-	height: 30px;										
+	height: 20px;										
 	float: right;
 	position: relative;
 	z-index: 10;
@@ -1256,7 +1256,7 @@ header.hero-invisible #menu .open-filter, header.hero-invisible #menu .open-shar
 	}
 	
 .blog-masonry-entry .blog-content .time {
-	font-family: 'Josefin Sans'; 
+	font-family: 'Comfortaa'; 
 	font-weight: 400; 
 	letter-spacing: 0.04em;
 	background: #0d0d0d;
