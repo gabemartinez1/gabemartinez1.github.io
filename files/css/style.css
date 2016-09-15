@@ -472,7 +472,7 @@ header {
 	}	
 	header.non-fixed {	position: absolute; }	
 	
-header .header-inner { padding: 0px 40px; height: 0; margin-top: 60px; margin-bottom: 60px; }
+header .header-inner { padding: 0px 40px; height: 0; margin-top: 40px; margin-bottom: 60px; }
 header .header-inner.wrapper { padding: 0; }
 
 /* header background (white bar when nav is open)*/
@@ -1601,9 +1601,9 @@ div .column-section:first-child, .spacer + .column-section { margin-top: 0px; }
 ------------------------------------------------*/
 a.sr-button {
 	display: inline-block;
-	font-family: 'Montserrat';
+	font-family: 'Amiko';
 	font-weight: 400;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 20px !important;
 	letter-spacing: 0.1em; 
 	text-transform: uppercase;
@@ -1618,7 +1618,7 @@ a.sr-button {
 	padding: 15px 50px;
 	background: #0d0d0d;
 	}
-a.sr-button:hover { background: #ea4452; }
+a.sr-button:hover { background: #87cefa; }
 
 a.mini-button { font-size: 10px; padding: 10px 40px; }
 a.small-button { font-size: 12px; padding: 15px 50px; }
@@ -1628,7 +1628,7 @@ a.big-button { font-size: 16px;	padding: 22px 65px;	}
 a.sr-button1 { background: #0d0d0d; }
 a.sr-button1:hover { background: #ea4452; }
 
-a.sr-button2 { background: #ea4452; }
+a.sr-button2 { background: #FF4C4F; }
 a.sr-button2:hover { background: #0d0d0d; }
 
 a.sr-button3 { background: #ffffff; }
@@ -1636,6 +1636,12 @@ a.sr-button3:hover { background: #ea4452; }
 
 a.sr-button4 { background: #ea4452; }
 a.sr-button4:hover { background: #ffffff; }
+
+a.sr-button5 { background: #2E4466; }
+a.sr-button5:hover { background: #0d0d0d; }
+
+a.sr-button6 { background: #ffffff; }
+a.sr-button6:hover { background: #ffffff; }
 
 
 .sr-button-text {
@@ -2169,8 +2175,8 @@ header #logo { height: 30px;	 }
 nav#main-nav ul li > a { line-height: 30px; }
 
 /* logo height + header-inner margin (30px + 2*60px) */
-#page-body { padding-top: 150px; }
-header:after { top: -150px; height: 150px; }	
+#page-body { padding-top: 100px; }
+header:after { top: -150px; height: 105px; }	
 header.header-open:not(.header-transparent) + #hero, header.header-open:not(.header-transparent) + #page-body { margin-top: 150px; }
 #header-filter, #header-share { top: -150px;	 min-height: 150px; }
 @media only screen and (max-width: 1024px) { nav#main-nav { top: 150px !important; } }
