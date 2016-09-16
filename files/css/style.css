@@ -863,7 +863,7 @@ footer {
 	footer.footer-dark { background: #0d0d0d; }
 	
 footer .footer-inner {
-	padding: 120px 0;
+	padding: 90px 0;
 	}
 	
 footer .copyright { 
@@ -871,7 +871,7 @@ footer .copyright {
 	}
 	
 footer .widget { 
-	margin-top: 40px;
+	margin-top: 20px;
 	}
 	footer .widget:first-child, div .widget:first-child { margin:0; }
 		
